@@ -1,6 +1,6 @@
 # quantx-lab
 
-QuantX-SDK をしようしたnotebook実行環境です。
+QuantX-SDK を使用したnotebook実行環境です。
 
 ## 使い方
 
