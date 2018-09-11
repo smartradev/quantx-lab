@@ -24,3 +24,9 @@ jupyter labが起動するので、コンソールに表示されたURLをブラ
 contributeしてくださる方は、notebooks配下に作成していただいたnotebookをおき、こちらのセクションにリンクを貼ってください。<br>
 PullRequestお待ちしています！
 
+## (-_-).。oO(Pythonエンジニア募集中)
+
+https://smarttrade.co.jp/recruit
+
+ご応募、ご紹介大歓迎です！
+
