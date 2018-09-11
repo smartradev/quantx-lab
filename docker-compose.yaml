@@ -1,0 +1,13 @@
+version: "2"
+services:
+  lab:
+    build:
+      context: .
+    user: "${UID}:${GID}"
+    ports:
+      - "8888:8888"
+    volumes:
+      - "./notebooks:/${HOME}/notebooks"
+      - "./README.md:/${HOME}/README.md"
+    working_dir: "${HOME}"
+    command: jupyter-lab --allow-root --ip=0.0.0.0 --port=8888
