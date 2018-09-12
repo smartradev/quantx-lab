@@ -1,0 +1,9 @@
+Dockerfile
+.git
+.gitignore
+.commit_template
+docker-compose.yml
+*~
+*.bak
+
+
