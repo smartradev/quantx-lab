@@ -1,1 +1,5 @@
 notebooks/api_key.py
+notebooks/.ipynb_checkpoints/*
+notebooks/__pycache__/*
+lib/.ipynb_checkpoints/*
+lib/__pycache__/*
