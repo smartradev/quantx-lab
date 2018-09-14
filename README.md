@@ -1,18 +1,29 @@
 # quantx-lab
 
+jupyterでQuantXアルゴリズムを開発！
 QuantX-SDK を使用したnotebook実行環境です。
+
+## 準備
+- docker
+- docker-compose
 
 ## 使い方
 
 ```
 docker-compose up lab
 ```
-jupyter labが起動するので、コンソールに表示されたURLをブラウザに入力してアクセスしてください。
 
-## インストール
+もしくは
+
+```
+docker run -p 8888:8888 smartradev/quantx-lab
+```
+
+jupyter labが起動するので、コンソールに表示されたURLをブラウザに入力してアクセスしてください。
 
 ## はじめの一歩
 
+- [QuantX SDKの使い方](notebooks/how_to_use_quantx_sdk.ipynb)
 - [はじめの一歩](notebooks/firstStep_for_QuantX_SDK.ipynb)
 
 ## その他のnotebook

@@ -1,8 +1,7 @@
 version: "3"
 services:
   lab:
-    build:
-      context: .
+    image: smartradev/quantx-lab
     user: "${UID}:${GID}"
     ports:
       - "8888:8888"
@@ -12,3 +11,4 @@ services:
       - "./README.md:/${HOME}/README.md"
     working_dir: "${HOME}"
     command: jupyter-lab --allow-root --ip=0.0.0.0 --port=8888
+
